@@ -74,9 +74,9 @@ section.sobre{
 }
 
 .sobre img{
-    margin-left: 750px;
     width: 250px;
     margin-top: 180px;
+    margin-left: 800px;
     box-shadow:  0 0 20px rgb(29, 89, 255);
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
@@ -138,6 +138,7 @@ section.sobre{
 
 .cursos {
     display: flex;
+    justify-content: center;
 }
 
 .icons h1{
@@ -162,14 +163,14 @@ section.sobre{
     color: rgb(0, 68, 255);
     margin-top: 0px;
     font-size: 20px;
-    margin-left: 550px;
+    margin-left: 0px;
 }
 
 
 .ds i{
     filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
     font-size: 60px;
-    margin-left: 550px;
+    margin-left: 0px;
     color: rgb(0, 68, 255);
 }
 
@@ -177,7 +178,7 @@ section.sobre{
     color: rgb(0, 68, 255);
     margin-top: 0px;
     font-size: 20px;
-    margin-left: 83px;
+    margin-left: 80px;
 }
 
 .md i{
@@ -190,12 +191,13 @@ section.sobre{
 section.habilidades2 {
     display: flex;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .html i{
     filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
     font-size: 65px;
-    margin-left: 480px;
+    margin-left: 0px;
     color: rgb(0, 68, 255);
 }
 
@@ -290,12 +292,13 @@ section.imagens {
 section.contatos {
     margin-top: 30px;
     display: flex;
+    justify-content: center;
 }
 
 .insta i{
     filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
     font-size: 50px;
-    margin-left: 470px;
+    margin-left: 0px;
     color: rgb(0, 68, 255);
 }
 
@@ -516,7 +519,7 @@ section.habilidades2 {
 .html i{
     filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
     font-size: 65px;
-    margin-left: 50px;
+    margin-left: 0px;
     color: rgb(0, 68, 255);
 }
 
@@ -611,34 +614,34 @@ section.imagens {
 section.contatos {
     margin-top: 30px;
     display: flex;
-    
+    justify-content: space-evenly;   
 }
 
 .insta i{
     filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
     font-size: 50px;
-    margin-left: 40px;
+    margin-left: 0px;
     color: rgb(0, 68, 255);
 }
 
 .linkedin i{
     filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 0px;
     color: rgb(0, 68, 255);
 }
 
 .github i{
     filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 0px;
     color: rgb(0, 68, 255);
 }
 
 .email i{
     filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
     font-size: 50px;
-    margin-left: 50px;
+    margin-left: 0px;
     color: rgb(0, 68, 255);
 }
 }
