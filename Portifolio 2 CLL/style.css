@@ -1,0 +1,628 @@
+/*SITE GERAL*/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@media (min-width: 1030px){
+
+body {
+    background-color: rgb(0, 7, 27);
+    font-family: Arial, sans-serif;
+    display: block;
+}
+
+section.sobrecll {
+    display: none;
+}
+
+/*TOPO*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(0, 68, 255);
+}
+
+.topo {
+    width: 99%;
+    margin-top: 10px;
+    margin-left: 0px; 
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 68, 255);
+    border: none;
+    border-radius: 40px;
+    height: 80px;
+    box-shadow: 0 0 20px rgb(0, 68, 255);
+}
+
+.topo h1{
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    font-size: 27px;
+    text-align: center;
+}
+
+/*SOBRE*/
+
+section.sobre{
+    display: flex;
+    margin-top: 50px;
+}
+
+.sobre h2{
+    display: block;
+    margin-left: 50px;
+    margin-top: 300px;
+    color: white;
+    font-size: 30px;
+    line-height: 27px;
+}
+
+.sobre p{
+    margin-left: 5px;
+    color: rgb(0, 68, 255);
+    font-size: 15px;
+    margin: 0px 0;
+}
+
+.sobre span{
+    color: rgb(0, 68, 255);
+    display: block;
+}
+
+.sobre img{
+    width: 250px;
+    margin-top: 180px;
+    margin-left: 800px;
+    box-shadow:  0 0 20px rgb(29, 89, 255);
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/*SOBRE MIM*/
+
+.txt-sobremim h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.txt-sobremim span{
+    color: rgb(0, 68, 255);
+}
+
+.txt-sobremim p{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.199);
+    font-size: 20px;
+    width: 390px;
+}
+
+.txt-sobremim span{
+    color: rgb(0, 68, 255);
+}
+
+/*HABILIDADES*/
+
+.txt-habilidades h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.txt-habilidades span{
+    color: rgb(0, 68, 255);
+}
+
+.cursos {
+    display: flex;
+    justify-content: center;
+}
+
+.icons h1{
+    color: rgb(0, 68, 255);
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons h2{
+    color: rgb(0, 68, 255);
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ds h2{
+    color: rgb(0, 68, 255);
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+
+.ds i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 60px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+
+.md h3{
+    color: rgb(0, 68, 255);
+    margin-top: 0px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.md i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 60px;
+    margin-left: 70px;
+    color: rgb(0, 68, 255);
+}
+
+section.habilidades2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.html i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 65px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+
+.css i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 65px;
+    margin-left: 70px;
+    color: rgb(0, 68, 255);
+}
+
+.js i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 65px;
+    margin-left: 70px;
+    color: rgb(0, 68, 255);
+}
+
+/*PROJETOS*/
+
+.txt-projetos h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.txt-projetos span{
+    color: rgb(0, 68, 255);
+}
+
+.txt-projetos h3{
+    display: block;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+/*SECOES PROJETOS*/
+.sites h1{
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(0, 68, 255);
+    font-size: 30px;
+}
+
+.jogos p{
+    color: rgb(29, 89, 255);
+    text-align: center;
+    font-size: 18px;
+}
+
+section.imagens {
+    display: flex;
+}
+
+.sites img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    box-shadow:  0 0 20px rgb(29, 89, 255);    
+}
+
+/*CONTATO*/
+
+.txt-contato h2{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.txt-contato span{
+    color: rgb(0, 68, 255);
+}
+
+section.contatos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.insta i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 50px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+
+.linkedin i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 50px;
+    margin-left: 50px;
+    color: rgb(0, 68, 255);
+}
+
+.github i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 50px;
+    margin-left: 50px;
+    color: rgb(0, 68, 255);
+}
+
+.email i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 50px;
+    margin-left: 50px;
+    color: rgb(0, 68, 255);
+}
+}
+
+@media screen and (max-width: 1020px) {
+
+
+body {
+    background-color: rgb(0, 7, 27);
+    font-family: Arial, sans-serif;
+    display: block;
+}
+    
+    
+    
+::-webkit-scrollbar{
+    width: 10px;
+}
+    
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(0, 68, 255);
+}
+section.sobrecll {
+    display: block;
+}
+
+/*TOPO*/
+
+.topo {
+    width: 97%;
+    margin-top: 10px;
+    margin-left: 0px; 
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 68, 255);
+    border: none;
+    border-radius: 40px;
+    height: 80px;
+    box-shadow: 0 0 20px rgb(29, 89, 255);
+}
+
+.topo h1{
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    font-size: 27px;
+    text-align: center;
+}
+
+/*SOBRE*/
+
+section.sobre {
+    display: none;
+} 
+
+.sobrecll h2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.sobrecll p{
+    margin-left: 5px;
+    color: rgb(0, 68, 255);
+    font-size: 15px;
+    margin: 0px 0;
+}
+
+.sobrecll span{
+    color: rgb(0, 68, 255);
+    display: block;
+}
+
+.sobrecll img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    margin-top: 220px;
+    box-shadow:  0 0 20px rgb(29, 89, 255);
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/*SOBRE MIM*/
+
+.txt-sobremim h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.txt-sobremim span{
+    color: rgb(0, 68, 255);
+}
+
+.txt-sobremim p{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.199);
+    font-size: 17px;
+    width: 300px;
+}
+
+.txt-sobremim span{
+    color: rgb(0, 68, 255);
+}
+
+/*HABILIDADES*/
+
+.txt-habilidades h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.txt-habilidades span{
+    color: rgb(0, 68, 255);
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons h1{
+    color: rgb(0, 68, 255);
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons h2{
+    color: rgb(0, 68, 255);
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ds h2{
+    color: rgb(0, 68, 255);
+    font-size: 20px;
+}
+
+.md h3{
+    color: rgb(0, 68, 255);
+    font-size: 20px;
+}
+
+.ds i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 60px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+
+.md i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 60px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+
+section.habilidades2 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.html i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 65px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+
+.css i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 65px;
+    margin-left: 70px;
+    color: rgb(0, 68, 255);
+}
+
+.js i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 65px;
+    margin-left: 70px;
+    color: rgb(0, 68, 255);
+}
+
+/*PROJETOS*/
+
+.txt-projetos h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.txt-projetos span{
+    color: rgb(0, 68, 255);
+}
+
+.txt-projetos h3{
+    display: block;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+/*SECOES PROJETOS*/
+.sites h1{
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(0, 68, 255);
+    font-size: 30px;
+}
+
+.jogos p{
+    color: rgb(29, 89, 255);
+    text-align: center;
+    font-size: 18px;
+}
+
+section.imagens {
+    display: flex;
+}
+
+.sites img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    box-shadow:  0 0 20px rgb(29, 89, 255);    
+}
+
+
+/*CONTATO*/
+
+.txt-contato h2{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.txt-contato span{
+    color: rgb(0, 68, 255);
+}
+
+section.contatos {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.insta i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 50px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+
+.linkedin i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 50px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+
+.github i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 50px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+
+.email i{
+    filter: drop-shadow(0 0 20px rgb(29, 89, 255) );
+    font-size: 50px;
+    margin-left: 0px;
+    color: rgb(0, 68, 255);
+}
+}
